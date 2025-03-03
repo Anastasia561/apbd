@@ -8,7 +8,6 @@ Console.WriteLine(result);
 
 static double GetAvg(int[] arr)
 {
-    double sum = 0;
     foreach (var n in arr)
     {
         sum += n;
