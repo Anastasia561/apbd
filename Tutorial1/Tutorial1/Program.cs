@@ -9,9 +9,9 @@ Console.WriteLine(result);
 static double GetAvg(int[] arr)
 {
     double sum = 0;
-    foreach (var i in arr)
+    foreach (var a in arr)
     {
-        sum += i;
+        sum += a;
     }
     return sum / arr.Length;
 }
